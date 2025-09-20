@@ -2,7 +2,7 @@ import { Link, NestedView, useActive, useRouter } from "alepha/react";
 import { useI18n } from "alepha/react/i18n";
 import type { ReactNode } from "react";
 import type { AppRouter } from "../AppRouter.js";
-import type { I18n } from "../I18n.js";
+import type { I18n } from "../locales/I18n.js";
 
 const MenuItem = (props: { href: string; children: ReactNode }) => {
 	const { anchorProps, isActive } = useActive(props.href);

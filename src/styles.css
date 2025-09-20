@@ -141,10 +141,6 @@ button[type="button"]:disabled {
 	cursor: not-allowed;
 }
 
-ul {
-	list-style: none;
-}
-
 li {
 	padding: 8px 0;
 	display: flex;

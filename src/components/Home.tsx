@@ -2,8 +2,8 @@ import { useClient } from "alepha/react";
 import { useI18n } from "alepha/react/i18n";
 import { useState } from "react";
 import type { TodoApi } from "../api/TodoApi.js";
+import type { I18n } from "../locales/I18n.js";
 import type { Task } from "../schemas/taskSchema.js";
-import type { I18n } from "../I18n.js";
 
 type Props = {
 	tasks: Task[];

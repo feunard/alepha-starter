@@ -4,7 +4,7 @@ import { useForm } from "alepha/react/form";
 import { useI18n } from "alepha/react/i18n";
 import type { AppRouter } from "../AppRouter.js";
 import type { TodoApi } from "../api/TodoApi.js";
-import type { I18n } from "../I18n.js";
+import type { I18n } from "../locales/I18n.js";
 
 const TodoAdd = () => {
 	const router = useRouter<AppRouter>();
