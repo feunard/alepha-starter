@@ -15,6 +15,7 @@
 		"vitest": "^3.0.0"
 	},
 	"scripts": {
+		"check": "tsc --noEmit",
 		"dev": "vite",
 		"build": "vite build",
 		"lint": "biome check --write",
