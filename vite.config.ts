@@ -9,4 +9,7 @@ export default defineConfig({
 			serverEntry: "src/index.server.ts",
 		}),
 	],
+	test: {
+		globals: true,
+	},
 });

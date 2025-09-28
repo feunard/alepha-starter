@@ -12,10 +12,7 @@ const alepha = Alepha.create({
 	env: {},
 });
 
-// alepha is bundled with modules
 alepha.with(AlephaReactHead);
-
-// you can add also you own services
 alepha.with(AppRouter);
 alepha.with(I18n);
 
