@@ -11,21 +11,12 @@ npm install
 # Start development server
 npm run dev
 
-# Lint code
-npm run lint
-
 # Build for production
 npm run build
-node dist/index.mjs
+
+# Start production server
+node dist
 ```
-
-## What's Included
-
-- **Alepha** - Type-safe full-stack development
-- **React 19** - Modern UI framework
-- **TypeScript** - Type safety across the stack
-- **Vite** - Fast build tooling
-- **Biome** - Fast linting and formatting
 
 ## Learn More
 
