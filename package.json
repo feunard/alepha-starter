@@ -7,13 +7,11 @@
     "verify": "alepha verify"
   },
   "dependencies": {
-    "drizzle-orm": "^0.44.7",
-    "postgres": "^3.4.7",
-    "alepha": "0.11.2",
+    "alepha": "0.11.3",
     "react": "^19.2.0"
   },
   "devDependencies": {
-    "@electric-sql/pglite": "^0.3.11",
-    "@alepha/cli": "0.11.2"
+    "@types/react": "^19.2.2",
+    "@alepha/cli": "0.11.3"
   }
 }
